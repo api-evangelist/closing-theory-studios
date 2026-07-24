@@ -1,8 +1,29 @@
 aid: closing-theory-studios
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/closing-theory-studios.png
 name: Closing Theory Studios
-description: Closing Theory Studios is a company surfaced as a portfolio company of a16z and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Closing Theory Studios, Inc. is an independent mobile game studio founded in
+  2023 and based in Austin, Texas, on a mission to bring the real world into
+  games. Its debut title, Househunt (the officially licensed ZillowGoneWild
+  game), lets the 70 million-plus people who browse Zillow for fun buy, guess
+  prices on, renovate, flip, and manage real houses in a casual mobile
+  experience aimed at "non-gamers." The studio was co-founded by Ankith Harathi
+  and Nitin Rajinikanth and raised a $2.3M round led by a16z GAMES SPEEDRUN,
+  with participation from Powerhouse Capital and angel Seth Sivak (founder of
+  Proletariat, acquired by Blizzard). Closing Theory Studios ships consumer
+  mobile games on iOS and Android and does not currently publish a public
+  developer API, SDK, or API documentation surface.
 url: https://raw.githubusercontent.com/api-evangelist/closing-theory-studios/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +33,38 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Gaming
+- Mobile Games
+- Game Studio
+- Real Estate
+- Entertainment
+- Consumer Apps
 apis: []
+common:
+- type: DomainSecurity
+  url: security/closing-theory-studios-domain-security.yml
+- type: Website
+  url: https://closingtheory.com/
+- type: PrivacyPolicy
+  url: https://playhouserush.com/privacy
+- type: TermsOfService
+  url: https://playhouserush.com/termsofservice
+- type: LinkedIn
+  url: https://www.linkedin.com/company/closingtheory
+- type: AppStore
+  url: https://apps.apple.com/us/developer/closing-theory-studios-inc/id1689311809
+- type: GooglePlay
+  url: https://play.google.com/store/apps/details?id=com.househunt.app
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
